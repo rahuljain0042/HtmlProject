@@ -1,0 +1,187 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    color: ghostwhite;
+}
+.header{
+    float:left;
+}
+h1 {
+    font-family: serif;
+    text-align : left;
+    color: steelblue;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bold;
+    padding:10px;
+    float:left;
+}
+
+
+.container {
+    overflow: hidden;
+    background-color: lightseagreen;
+    font-family: Arial;
+    width: 100%;
+    margin: auto;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lavender;
+    min-width: 160px;
+    opacity: .8;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: gainsboro;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    width:960px;
+    height:900px;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 15px;
+    background-color: ghostwhite;
+}
+
+.first {
+     float:left;
+    width:200px;
+    height:400px;
+    padding: 30px;
+
+}
+
+.title{
+    padding: 10px;
+    color: steelblue;
+    font-style: serif;
+
+}
+.content{
+    text-align:justify;
+    padding: 0px;
+    color: steelblue;
+}
+
+.second {
+    padding: 30px;
+    float:left;
+    width:200px;
+    height:400px;
+    }
+
+    .third {
+    padding: 30px;
+    float:left;
+    width:200px;
+    height:400px;
+    }
+
+    .fourth{
+    padding: 30px;
+    float:left;
+    width:200px;
+    height:400px;
+    }
+
+    .fifth{
+    padding: 30px;
+    float:left;
+    width:200px;
+    height:400px;
+    }
+
+    .sixth{
+    padding: 30px;
+    float:left;
+    width:200px;
+    height:400px;
+    }
+
+    .row {
+    width: 100%;
+    clear: both; /* Clear creates new styles for the next row */
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.rating{
+    text-align:justify;
+    padding: 0px;
+    color: steelblue;
+}
+
+.hero-image {
+    height: 600px;
+    background: url("../Images/spider.png"); 
+    background-size: cover;
+
+}
+
+.footer{
+    background-color: lightseagreen;
+    height:80px;
+}
+.aboutus{
+    float:left;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: black;
+    
+}
+
+.contactus{
+    float:left;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: black;
+    
+}
