@@ -97,6 +97,7 @@ h1 {
     width: 200px;
     height: 400px;
     padding: 30px;
+    background-color: black;
 }
 
 .title {
@@ -117,6 +118,8 @@ h1 {
     width: 200px;
     height: 400px;
     margin-left: 20px;
+    background-color: black;
+    
 }
 
 .third {
@@ -124,7 +127,7 @@ h1 {
     float: left;
     width: 200px;
     height: 400px;
-
+    background-color: black;
     margin-left: 40px;
 }
 
@@ -133,7 +136,7 @@ h1 {
     float: left;
     width: 200px;
     height: 400px;
-
+background-color: black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -143,7 +146,7 @@ h1 {
     float: left;
     width: 200px;
     height: 400px;
-
+background-color: black;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -153,7 +156,7 @@ h1 {
     float: left;
     width: 200px;
     height: 400px;
-
+background-color: black;
     margin-left: 40px;
     margin-top: 10px
 }
@@ -174,8 +177,12 @@ h1 {
 
 .hero-image {
     height: 600px;
-    background: url("spider.png");
+    background: url("../Images/spider.png") center center no-repeat;
     background-size: cover;
+}
+
+.hero-image h1 {
+  text-align: center;
 }
 
 .footer {
